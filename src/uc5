@@ -1,0 +1,25 @@
+public class OopsBannerApp {
+
+    public static void main(String[] args) {
+        String[] bannerLines = createBanner();
+        printBanner(bannerLines);
+    }
+
+    public static String[] createBanner() {
+        return new String[] {
+            "  *****          *****          *******         ******* ",
+            " *     *        *     *        *       *       *       ",
+            " *     *        *     *        *       *       *       ",
+            " *     *        *     *        *******         ******* ",
+            " *     *        *     *        *               *       ",
+            " *     *        *     *        *               *       ",
+            "  *****          *****         *               ******* "
+        };
+    }
+
+    public static void printBanner(String[] bannerLines) {
+        for (String line : bannerLines) {
+            System.out.println(line);
+        }
+    }
+}
