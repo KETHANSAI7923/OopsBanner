@@ -1,4 +1,4 @@
-public class OopsBannerApp {
+public class OopsBanner {  
 
     public static void main(String[] args) {
         String[] bannerLines = createBanner();
